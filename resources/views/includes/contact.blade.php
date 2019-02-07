@@ -4,10 +4,9 @@
             <div class="con-title-column col-lg-12 col-md-12 col-sm-12">
                 <!--Sec Title-->
                 <div class="sec-con-title text-center centered mx-auto">
-                    <div class="con-title-text con-title-border-l">It's Best Simple & Useful</div>
+                    <div class="con-title-text con-title-border-l">We can attend to you anytime</div>
                     <h2>Contact Us for any Query</h2>
-                    <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s</div>
+                    <div class="text">You can reach us 24/7 and we are always available to help</div>
                 </div>
             </div>
         </div>
@@ -17,16 +16,16 @@
                     <div class="contact-details-content p-3 mt-3">
                         <div class="contact-detail">
                             <h6 class="font-weight-bold">Address</h6>
-                            <p class="text-muted mb-0">California,
-                                <br> TX 70240.</p>
+                            <p class="text-muted mb-0">Abeokuta,
+                                <br> Ibara Housing Estate</p>
                         </div>
                     </div>
 
                     <div class="contact-details-content p-3 mt-3">
                         <div class="contact-detail">
                             <h6 class="font-weight-bold">Mail</h6>
-                            <p class="text-muted mb-0">Support@Corpr-R.com</p>
-                            <p class="text-muted mb-0">info@Corpr-R.com</p>
+                            <p class="text-muted mb-0">support@yoduministry.org</p>
+                            <p class="text-muted mb-0">info@yoduministry.org</p>
                         </div>
                     </div>
 
