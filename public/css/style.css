@@ -745,7 +745,7 @@ img {
 
 .header-top .top-left .header-info-list li .icon {
     position: relative;
-    color: #6734c2;
+    color: #094f94;
     font-size: 18px;
     margin-right: 8px;
     display: inline-block;
@@ -777,7 +777,7 @@ img {
 
 .header-top .top-right .social-box li a {
     position: relative;
-    color: #6734c2;
+    color: black;
     font-size: 16px;
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
@@ -787,7 +787,7 @@ img {
 }
 
 .header-top .top-right .social-box li a:hover {
-    color: #ee2d50;
+    color: #094f94;
 }
 
 .corpo-header .main-box {

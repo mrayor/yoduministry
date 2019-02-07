@@ -1,7 +1,7 @@
 <!-- Main Header-->
 
 
-<header class="{{Request::routeIs('home') ? 'corpo-header' : 'corpo-header style-two'}}">
+<header class="{{Request::routeIs('about') ? 'corpo-header style-two' : 'corpo-header'}}">
 
     <!--Header-Upper-->
     <div class="header-upper">
