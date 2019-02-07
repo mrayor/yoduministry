@@ -1727,7 +1727,7 @@ img {
 }
 
 .banner-heading-two h2 {
-    color: #ee2d50;
+    color: #094f94;
     font-size: 50px;
     font-weight: 600;
     text-transform: capitalize;
@@ -2128,7 +2128,7 @@ img {
 .video-holder .overlay-holder span:before {
     font-size: 30px;
     margin-left: 0;
-    color: #6734c2;
+    color: #094f94;
 }
 
 .video-holder .overlay-holder:hover span {
@@ -3836,4 +3836,12 @@ img {
     font-size: 16px;
     line-height: 1.7em;
     margin-bottom: 20px;
+}
+
+.margintop{
+    margin-top: 40px;
+}
+
+.margintop-t-2{
+    margin-top: 80px;
 }

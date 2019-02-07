@@ -12,7 +12,7 @@
             <div class="con-title-column col-lg-5 col-md-12 col-sm-12">
                 <!--Sec con-title-->
                 <div class="sec-con-title">
-                    <div class="con-title-text con-title-border-l">Lorem Ipsum Dummy</div>
+                    <div class="con-title-text con-title-border-l">Get to Know Us</div>
                     <h2>About Our Goals</h2>
                 </div>
                 <div class="text">As Christians, we are individually called to life in Christ (Galatians 2:20), aftermath of a spritual
