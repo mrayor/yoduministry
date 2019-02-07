@@ -17,6 +17,10 @@ Route::get('/', 'PagesController@index')->name('home');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/blog', 'PagesController@blog')->name('blog');
 Route::get('/contact', 'PagesController@contact')->name('contact');
+
+//remove to make dynamic
+Route::get('/singleblog', 'PagesController@singleblog')->name('singleblog');
+
 // Route::get('/', function () {
 //     return view('welcome');
 // });

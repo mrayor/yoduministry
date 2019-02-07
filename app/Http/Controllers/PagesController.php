@@ -22,4 +22,11 @@ class PagesController extends Controller
   {
       return view('contact');
   }
+
+
+  //Remove to make dynamic
+  public function singleblog()
+  {
+      return view('singleblog');
+  }
 }

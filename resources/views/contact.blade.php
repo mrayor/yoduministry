@@ -1,6 +1,6 @@
 @extends('layouts.master') 
 @section('title', 'Contact Us')
-@include('includes.headerUpper')
+{{-- @include('includes.headerUpper') --}}
 @section('content')
 
 <!-- Banner Section -->
