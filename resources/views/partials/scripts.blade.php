@@ -9,4 +9,5 @@
 <script src="{{ asset('js/owl.js') }}"></script>
 <script src="{{ asset('js/wow.js') }}"></script>
 <script src="{{ asset('js/slick.js') }}"></script>
+<script src="{{ asset('js/isotope.js') }}"></script>
 <script src="{{ asset('js/script.js') }}"></script>

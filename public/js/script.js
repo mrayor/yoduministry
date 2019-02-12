@@ -330,7 +330,7 @@
 
     $(window).on('load', function() {
         handlePreloader();
-        enableMasonry();
+        // enableMasonry();
     });
 
 })(window.jQuery);
