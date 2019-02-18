@@ -91,7 +91,6 @@
                 </div>
                 <div class="column col-md-6 col-sm-12 col-xs-12">
                     <ul class="footer-nav">
-                        <li><a href="#">Privacy Policy</a></li>
                         <li><a href="{{route('contact')}}">Contact Us</a></li>
                     </ul>
                 </div>
