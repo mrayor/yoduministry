@@ -23,7 +23,7 @@
                     <h2>Aim.Focus.Achieve</h2>
                     <div class="text">Follow the right path with God, and the sky is your starting point with all things being possible </div>
                     <div class="link-holder">
-                        <a href="{{route('about')}}" class="corpo-r-btn btn-style-two">learn more</a>           
+                        <a href="{{route('register')}}" class="corpo-r-btn btn-style-two">Register</a>           
                     </div>
                 </div>
             </div>

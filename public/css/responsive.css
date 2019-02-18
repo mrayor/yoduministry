@@ -69,6 +69,7 @@
     .corpo-header .nav-outer {
         float: left;
         width: 100%;
+        top: -200px;
     }
     .strategy-block .inner-box {
         padding-left: 0px;
@@ -177,7 +178,10 @@
     }
     .contact-section:before {
         width: 50%;
-        height: 76%;
+        height: 82%;
+    }
+    .footer{
+        padding: 0px;
     }
 }
 
@@ -424,6 +428,7 @@
     }
     .corpo-header .nav-outer {
         width: 100%;
+        top: -200px;
     }
     .slider h2 {
         font-size: 60px;
@@ -468,6 +473,9 @@
     }
     .main-footer .footer-bottom {
         text-align: center;
+    }
+    .footer{
+        padding: 0px;
     }
     .main-footer .footer-bottom .footer-nav {
         text-align: center;
@@ -529,7 +537,7 @@
         -o-transform: rotate(0deg);
     }
     .contact-section::before {
-        height: 71%;
+        height: 76%;
     }
     .video-holder .overlay-holder span {
         top: 34%;

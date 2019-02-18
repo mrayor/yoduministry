@@ -14,9 +14,9 @@
                         <div class="footer-col col-lg-3">
                             <div class="footer-widget logo-widget">
                                 <div class="logo">
-                                    <a href="{{route('home')}}"><img src="images\logo.png" alt=""></a>
+                                    <a href="{{route('home')}}"><img src="images\logo-footer.svg" alt=""></a>
                                 </div>
-                                <div class="text">Abeokuta, Ibara Housing</div>
+                                <div class="text">Abeokuta, Ibara GRA</div>
                                 <ul class="list-style-one">
                                     <li><span>Phone:</span> +123 456 7890</li>
                                     <li><span>Email:</span> support@yoduministry.org</li>
@@ -24,9 +24,9 @@
                                 </ul>
                                 <ul class="social-icon">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    {{-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> --}}
                                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 </ul>
                             </div>
@@ -53,7 +53,7 @@
                                 <ul class="footer-link">
                                 <li><a href="{{route('about')}}">About Us</a></li>
                                     <li><a href="{{route('blog')}}">Blog</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
+                                    {{-- <li><a href="#">Privacy Policy</a></li> --}}
                                     <li><a href="{{route('contact')}}">Contact Us</a></li>
                                 </ul>
                             </div>

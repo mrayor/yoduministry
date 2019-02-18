@@ -50,7 +50,7 @@
                 <!--Sec Title-->
                 <div class="sec-con-title text-center centered mx-auto">
                     <div class="con-title-text con-title-border-l">Mind Transformation</div>
-                    <h2>Latest Blog Posts</h2>
+                    <h2>Inform . Educate . Inspire</h2>
                     <div class="text">Fully maximize your potential and develop into actuality, and enhance
                         your relationship with God
                     </div>

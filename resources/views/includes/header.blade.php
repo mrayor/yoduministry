@@ -1,16 +1,16 @@
 <!-- Main Header-->
 
 
-<header class="{{Request::routeIs('about') ? 'corpo-header style-two' : 'corpo-header'}}">
+<header class="corpo-header">
 
     <!--Header-Upper-->
-    <div class="header-upper">
+    <div class="header-upper margin-edit margin-edit" >
         <div class="default-container">
             <div class="clearfix">
 
                 <div class="pull-left logo-box">
                     <div class="logo">
-                        <a href="{{route('home')}}"><img src="{{ asset('images/logo.png') }}" alt="" title=""></a>
+                        <a href="{{route('home')}}"><img src="{{ asset('images/logo.svg') }}" alt="" title="" height="500" width="400"></a>
                     </div>
                 </div>
 
@@ -67,10 +67,10 @@
 
     <!--Sticky Header-->
     <div class="sticky-header">
-        <div class="default-container clearfix">
+        <div class="default-container clearfix" style="margin-bottom: -180px;">
             <!--Logo-->
             <div class="logo pull-left">
-                <a href="{{route('home')}}" class="img-responsive"><img src="{{ asset('images/logo-small.png') }}" alt="logo" title="Yodu Ministry"></a>
+                <a href="{{route('home')}}" class="img-responsive"><img src="{{ asset('images/logo.svg') }}" alt="logo" title="Yodu Ministry" height="500" width="400"></a>
             </div>
 
             <!--Right Col-->

@@ -32,8 +32,16 @@
                     <div class="contact-details-content p-3 mt-3">
                         <div class="contact-detail">
                             <h6 class="font-weight-bold">Call</h6>
-                            <p class="text-muted mb-0">+123 456 7890,
-                                <br>+123 456 7890.</p>
+                            <p class="text-muted mb-0">+234 909 9094 209,
+                                <br>+234 813 7666 121.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-details-content p-3 mt-3">
+                        <div class="contact-detail">
+                            <h6 class="font-weight-bold">Counseling Lines</h6>
+                            <p class="text-muted mb-0">+234 909 9094 209,
+                                <br>+234 813 7666 121.</p>
                         </div>
                     </div>
                 </div>
@@ -41,26 +49,36 @@
 
             <div class="col-lg-7">
                 <div class="business_form_custom mt-3">
-                    <form>
+                    <form action="{{route('postContact')}}" method="POST">
+                        @csrf 
+                        @if (session('status'))
+                        <div class="alert alert-success">
+                            {{ session('status') }}
+                        </div>
+                        @endif
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="form-group">
-                                    <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." required="">
+                                <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
+                                    <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." required="" value="{{ old('name')}}">
+                                    <small class="text-danger">{{ $errors->first('name') }}</small>
                                 </div>
                             </div>
                             <div class="col-lg-12">
-                                <div class="form-group">
-                                    <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." required="">
+                                <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}" >
+                                    <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." required=""  value="{{ old('email')}}">
+                                    <small class="text-danger">{{ $errors->first('email') }}</small>
                                 </div>
                             </div>
                             <div class="col-lg-12">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Your Subject.." required="">
+                                <div class="form-group{{ $errors->has('subject') ? ' has-error' : '' }}">
+                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Your Subject.." required="" value="{{ old('subject')}}">
+                                    <small class="text-danger">{{ $errors->first('subject') }}</small>
                                 </div>
                             </div>
                             <div class="col-lg-12">
-                                <div class="form-group">
-                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..." required=""></textarea>
+                                <div class="form-group{{ $errors->has('comments') ? ' has-error' : '' }}">
+                                    <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..." required="" value="{{ old('comments')}}"></textarea>
+                                    <small class="text-danger">{{ $errors->first('comments') }}</small>
                                 </div>
                             </div>
                         </div>
@@ -77,4 +95,3 @@
         </div>
     </div>
 </section>
-

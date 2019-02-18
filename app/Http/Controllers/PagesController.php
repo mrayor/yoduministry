@@ -18,12 +18,6 @@ class PagesController extends Controller
   {
       return view('blog');
   }
-  public function contact()
-  {
-      return view('contact');
-  }
-
-
   //Remove to make dynamic
   public function singleblog()
   {
