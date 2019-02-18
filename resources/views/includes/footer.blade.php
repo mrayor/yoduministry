@@ -89,11 +89,6 @@
                 <div class="column col-md-6 col-sm-12 col-xs-12">
                     <div class="copyright">Copyrights &copy; 2019 Yodu Ministry. All Rights Reserved. </div>
                 </div>
-                <div class="column col-md-6 col-sm-12 col-xs-12">
-                    <ul class="footer-nav">
-                        <li><a href="{{route('contact')}}">Contact Us</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
     </div>
