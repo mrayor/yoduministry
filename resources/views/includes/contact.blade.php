@@ -4,9 +4,9 @@
             <div class="con-title-column col-lg-12 col-md-12 col-sm-12">
                 <!--Sec Title-->
                 <div class="sec-con-title text-center centered mx-auto">
-                    <div class="con-title-text con-title-border-l">We can attend to you anytime</div>
-                    <h2>Contact Us for any Query</h2>
-                    <div class="text">You can reach us 24/7 and we are always available to help</div>
+                    <div class="con-title-text con-title-border-l">Training and Councelling needs</div>
+                    <h2>Contact Us</h2>
+                    <div class="text"></div>
                 </div>
             </div>
         </div>
@@ -17,7 +17,7 @@
                         <div class="contact-detail">
                             <h6 class="font-weight-bold">Address</h6>
                             <p class="text-muted mb-0">Abeokuta,
-                                <br> Ibara Housing Estate</p>
+                                <br>Ibara GRA</p>
                         </div>
                     </div>
 

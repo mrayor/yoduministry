@@ -31,7 +31,9 @@
                             <ul class="navigation clearfix">
                                 <li class="{{ Request::routeIs('home') ? 'current' : '' }}"><a href="{{route('home')}}">Home</a></li>
                                 <li class="{{Request::routeIs('about') ? 'current' : ''}}"><a href="{{route('about')}}">About Us</a></li>
-                                <li class="{{Request::routeIs('blog') ? 'current' : ''}}"><a href="{{route('blog')}}">Blog</a></li>
+                                {{-- <li class="{{Request::routeIs('blog') ? 'current' : ''}}"><a href="{{route('blog')}}">Blog</a></li> --}}
+                                <li class="{{Request::routeIs('register') ? 'current' : ''}}"><a href="{{route('register')}}">Register</a></li>
+
                                 <li class="{{Request::routeIs('contact') ? 'current' : ''}}"><a href="{{route('contact')}}">Contact us</a></li>
                             </ul>
                         </div>
@@ -88,7 +90,9 @@
                         <ul class="navigation clearfix">
                             <li class="{{ Request::routeIs('home') ? 'current' : '' }}"><a href="{{route('home')}}">Home</a></li>
                             <li class="{{Request::routeIs('about') ? 'current' : ''}}"><a href="{{route('about')}}">About Us</a></li>
-                            <li class="{{Request::routeIs('blog') ? 'current' : ''}}"><a href="{{route('blog')}}">Blog</a></li>
+                            {{-- <li class="{{Request::routeIs('blog') ? 'current' : ''}}"><a href="{{route('blog')}}">Blog</a></li> --}}
+                            <li class="{{Request::routeIs('register') ? 'current' : ''}}"><a href="{{route('register')}}">Blog</a></li>
+
                             <li class="{{Request::routeIs('contact') ? 'current' : ''}}"><a href="{{route('contact')}}">Contact us</a></li>
                         </ul>
                     </div>

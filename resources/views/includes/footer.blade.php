@@ -1,4 +1,3 @@
-
 <!--Main Footer-->
 <footer class="footer">
     <div class="default-container">
@@ -18,16 +17,16 @@
                                 </div>
                                 <div class="text">Abeokuta, Ibara GRA</div>
                                 <ul class="list-style-one">
-                                    <li><span>Phone:</span> +123 456 7890</li>
-                                    <li><span>Email:</span> support@yoduministry.org</li>
-                                    <li><span>Working Hours:</span> Mon - Fri: 9.00am - 5.00pm</li>
+                                    <li><span>Councelling Lines:</span> <br> +234 909 9094 209
+                                        <br>+234 813 7666 121.
+                                    </li>
+                                    <li><span>Email:</span> <br>support@yoduministry.org <br>info@yoduministry.org</li>
                                 </ul>
                                 <ul class="social-icon">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    {{-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> --}}
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://web.facebook.com/yoduministry/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.instagram.com/yoduministry/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="mailto:support@yoduministry.org" ><i class="fa fa-envelope"></i></a></li>
+                                    <li><a href="https://twitter.com/yoduministry" target="_blank" ><i class="fa fa-twitter"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -43,7 +42,7 @@
                                         <li>DEC 25 2018</li>
                                     </ul>
                                 </article>
-          
+
                             </div>
                         </div>
 
@@ -51,9 +50,10 @@
                             <div class="footer-widget links-widget">
                                 <h2>Quick Links</h2>
                                 <ul class="footer-link">
-                                <li><a href="{{route('about')}}">About Us</a></li>
-                                    <li><a href="{{route('blog')}}">Blog</a></li>
-                                    {{-- <li><a href="#">Privacy Policy</a></li> --}}
+                                    <li><a href="{{route('about')}}">About Us</a></li>
+                                    {{-- <li><a href="{{route('blog')}}">Blog</a></li> --}}
+                                    <li><a href="{{route('register')}}">Register</a></li>
+
                                     <li><a href="{{route('contact')}}">Contact Us</a></li>
                                 </ul>
                             </div>
@@ -62,7 +62,7 @@
                         <div class="footer-col col-lg-3">
                             <div class="footer-widget newsletter-widget">
                                 <h2>Our Newsletter</h2>
-                                <div class="text">Get in your inbox the latest News and Offers from Yodu Ministry</div>
+                                <div class="text">Get in your inbox the latest News from Yodu Ministry</div>
                                 <div class="newsletter-form">
                                     <form method="post" action="contact.html">
                                         <div class="form-group">

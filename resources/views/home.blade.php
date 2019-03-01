@@ -1,8 +1,7 @@
 @extends('layouts.master') 
-@section('title', 'Home')
+@section('title', 'Home') 
 @section('content')
-
-@include('includes.slider')
+    @include('includes.slider')
 <!--About Section-->
 <section class="about-section-three bg-style-one section-padding-all">
     <div class="default-container">
@@ -12,12 +11,11 @@
             <div class="con-title-column col-lg-5 col-md-12 col-sm-12">
                 <!--Sec con-title-->
                 <div class="sec-con-title">
-                    <div class="con-title-text con-title-border-l">Get to Know Us</div>
-                    <h2>About Our Goals</h2>
+                    <div class="con-title-text con-title-border-l">Inform.Educate.Inspire</div>
+                    <h2>Word Inspired Resource Development</h2>
                 </div>
-                <div class="text">As Christians, we are individually called to life in Christ (Galatians 2:20), aftermath of a spritual
-                    rebirth; a paragim shift of enormous spiritual proportions affecting lineage that only a mind, renewed within the sphere
-                    of influence of the Holy Spirit can grow and mature in.
+                <div class="text">The mind is functionally elastic; we exercise willing minds through biblical teaching and counselling thereby
+                    inspiring beyound perceived limitations.
                 </div>
                 <a href="{{route('about')}}" class="corpo-r-btn btn-style-five">Read More</a>
             </div>
@@ -31,7 +29,7 @@
                         <figure class="image">
                             <img src="images\pictures\playimage.png" alt="">
                         </figure>
-                        <a href="https://www.youtube.com/embed/7e90gBu4pas" class="lightbox-image overlay-holder-two"><span class="flaticon-play-button-5"></span></a>
+                        <a href="https://www.youtube.com/embed/sCknLOVAf7E" class="lightbox-image overlay-holder-two"><span class="flaticon-play-button-5"></span></a>
                     </div>
 
                 </div>
@@ -42,6 +40,29 @@
 </section>
 <!--End About Section-->
 
+
+<!--Register-->
+<div class="container-fluid">
+    <img src="images/pictures/training_image.jpg" class="img-fluid" alt="Responsive image">
+    <a href="{{route('register')}}" class="corpo-r-btn btn-style-five" style="
+    margin: 20px;">Register Now</a>
+</div>
+
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Crucified. Alive. Reigning</h1>
+        <p class="lead font-weight-normal">To fully maximize our potential (existing in possibility, capable of developemt into actuality) in Christ,
+            we need to come to full understanding of our relationship with God in order to walk in the realization
+            of our newbirth.</p>
+        <a class="btn btn-outline-secondary" href="#">Blog Coming soon</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+
+
+{{--
 <!--Blog Section-->
 <section class="blog-section section-padding-all">
     <div class="default-container">
@@ -49,10 +70,11 @@
             <div class="con-title-column col-lg-12 col-md-12 col-sm-12">
                 <!--Sec Title-->
                 <div class="sec-con-title text-center centered mx-auto">
-                    <div class="con-title-text con-title-border-l">Mind Transformation</div>
-                    <h2>Inform . Educate . Inspire</h2>
-                    <div class="text">Fully maximize your potential and develop into actuality, and enhance
-                        your relationship with God
+                    <div class="con-title-text con-title-border-l">Crucified . Alive . Reigning</div>
+                    <h2>Living in Christ</h2>
+                    <div class="text">To fully maximize our potential (existing in possibility, capable of developemt into actuality) in Christ,
+                        we need to come to full understanding of our relationship with God in order to walk in the realization
+                        of our newbirth.
                     </div>
                 </div>
             </div>
@@ -74,13 +96,13 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>
-<!--End Blog Section-->
+<!--End Blog Section-->--}}
 <!--Contact Section-->
-@include('includes.contact')
+    @include('includes.contact')
 <!--End Contact Section-->
 <!--End pagewrapper-->
 @endsection

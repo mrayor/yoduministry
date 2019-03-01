@@ -111,7 +111,7 @@
             nav: true,
             autoHeight: true,
             smartSpeed: 500,
-            autoplay: 6000,
+            autoplay: 10000,
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
             responsive: {
                 0: {

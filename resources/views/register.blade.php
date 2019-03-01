@@ -4,7 +4,7 @@
 @section('content')
 
 <!-- Banner Section -->
-<section class="banner-section" style="background: url(images/banner/banner1.jpg)">
+<section class="banner-section" style="background: url(images/banner/blog_banner.jpg); background-size: 1490px">
     <div class="banner-heading-two">
         <h2>Register</h2>
     </div>
