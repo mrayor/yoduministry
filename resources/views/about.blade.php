@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Banner Section -->
-<section class="banner-section" style="background: url(images/banner/banner1.jpg)">
+<section class="banner-section" style="background: url(images/banner/blog_banner.jpg); background-size: 1490px">
     <div class="banner-heading-two">
         <h2>About Us</h2>
     </div>
@@ -33,10 +33,10 @@
                     <div class="con-title-text con-title-border-l">Inform . Educate . Inspire</div>
                     {{-- <h2>Word Inspired Resource Development</h2> --}}
                 </div>
-                <div class="text">As Christians, we are individually called to life in Christ (Galatians 2:20), aftermath of a spritual rebirth;a
-                    paragim shift of enormous spiritual proportions affecting lineage that only a mind, renewed within the
-                    sphere of influence of the Holy Spirit can grow and mature in. To aid the process of renewal of mind
-                    towards achieving the set mission, the Ministry finds expression through the following centers of activity.
+                <div class="text">As Christians, we are individually called to life in Christ (Galatians 2:20), aftermath of a spritual rebirth; a
+                    paradigm shift of enormous spiritual proportions affecting lineage that only a mind, renewed within the
+                    sphere of influence of the Holy Spirit can grow and mature in. To this end the ministry serves as a platform for self discovery
+                    and fufilment of purpose. <br><br>
                     To fully maximize our potential (existing in possibility: capable of development into actuality) in Christ
                     Jesus, we need to come to full understanding of our relationship with God in order to walk in the realizaiton
                     of our new birth. As we grow in this understanding, we attain the spiritual maturity required to handle
@@ -78,8 +78,7 @@
                     <h2>Our Mission</h2>
 
                     <div class="text">
-                        <h5>To kindle God's purpose in belivers of Christ thereby getting them WIReD (Word Inspired Resource
-                            Development) for service</h5>
+                        <h5>Committed to the teaching of life centered in Christ; Propelled by love, sustained by hope and made productive by faith</h5>
                     </div>
                 </div>
             </div>

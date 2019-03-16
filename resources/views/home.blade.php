@@ -62,7 +62,7 @@
 </div>
 
 
-{{--
+{{-- 
 <!--Blog Section-->
 <section class="blog-section section-padding-all">
     <div class="default-container">
@@ -100,7 +100,7 @@
         </div>
     </div>
 </section>
-<!--End Blog Section-->--}}
+<!--End Blog Section--> --}}
 <!--Contact Section-->
     @include('includes.contact')
 <!--End Contact Section-->

@@ -33,7 +33,7 @@
                         <div class="contact-detail">
                             <h6 class="font-weight-bold">Call</h6>
                             <p class="text-muted mb-0">+234 909 9094 209,
-                                <br>+234 813 7666 121.</p>
+                                <br>+234 813 7666 121</p>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@
                         <div class="contact-detail">
                             <h6 class="font-weight-bold">Counseling Lines</h6>
                             <p class="text-muted mb-0">+234 909 9094 209,
-                                <br>+234 813 7666 121.</p>
+                                <br>+234 813 7666 121</p>
                         </div>
                     </div>
                 </div>

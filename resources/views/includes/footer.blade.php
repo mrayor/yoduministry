@@ -18,7 +18,7 @@
                                 <div class="text">Abeokuta, Ibara GRA</div>
                                 <ul class="list-style-one">
                                     <li><span>Councelling Lines:</span> <br> +234 909 9094 209
-                                        <br>+234 813 7666 121.
+                                        <br>+234 813 7666 121
                                     </li>
                                     <li><span>Email:</span> <br>support@yoduministry.org <br>info@yoduministry.org</li>
                                 </ul>
